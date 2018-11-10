@@ -26,4 +26,3 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Infrastructure.Data.Mode
         public int LoginTrials { get; set; }
     }
 }
-}

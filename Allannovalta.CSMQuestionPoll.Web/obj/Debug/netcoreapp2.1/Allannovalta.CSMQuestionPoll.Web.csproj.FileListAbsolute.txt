@@ -5,7 +5,6 @@ C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannova
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\bin\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.pdb
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\bin\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.Views.dll
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\bin\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.Views.pdb
-C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csprojAssemblyReference.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csproj.CoreCompileInputs.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.RazorAssemblyInfo.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.RazorAssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannova
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.dll
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.pdb
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csproj.CopyComplete
+C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csprojAssemblyReference.cache
