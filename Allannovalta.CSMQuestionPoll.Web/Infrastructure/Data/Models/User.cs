@@ -1,11 +1,11 @@
-﻿using Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Infrastructure.Data.Enums;
-using Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Infrastructure.Data.Helpers;
+﻿using Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Enums;
+using Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Infrastructure.Data.Models
+namespace Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Models
 {
     public class User : BaseModel
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Infrastructure.Data.Helpers;
+using Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Helpers;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
+namespace Allannovalta.CSMQuestionPoll.Web.Areas.Controllers
 {
     public class UsersController : Controller
     {
