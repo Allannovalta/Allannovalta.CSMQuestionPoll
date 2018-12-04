@@ -13,10 +13,7 @@ C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannova
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.TagHelpers.input.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.TagHelpers.output.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.RazorCoreGenerate.cache
-C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
-C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -30,4 +27,5 @@ C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannova
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.pdb
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csproj.CopyComplete
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csprojAssemblyReference.cache
-C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\Users\UserIndex.g.cshtml.cs
+C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\Users\Index.g.cshtml.cs
+C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\Questions\Index.g.cshtml.cs

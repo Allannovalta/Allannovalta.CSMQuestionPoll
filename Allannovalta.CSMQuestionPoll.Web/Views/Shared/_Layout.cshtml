@@ -26,25 +26,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Allannovalta.CSMQuestionPoll.Web</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">CSM Question Poll</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="~/manage/users" >User</a></li>
-                    <li><a href="" >Question Poll</a></li>
+                    <li><a href="~/manage/questions" >Question Poll</a></li>
                     
                 </ul>
             </div>
         </div>
     </nav>
 
-    <partial name="_CookieConsentPartial" />
+    @*<partial name="_CookieConsentPartial" />*@
 
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - Allannovalta.CSMQuestionPoll.Web</p>
+            <p>&copy; 2018 - Created by Allan Chavez Novalta</p>
         </footer>
     </div>
 

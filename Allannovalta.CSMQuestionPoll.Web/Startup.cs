@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Helpers;
+//using Allannovalta.CSMQuestionPoll.Web.Areas.Infrastructure.Data.Helpers;
+using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
