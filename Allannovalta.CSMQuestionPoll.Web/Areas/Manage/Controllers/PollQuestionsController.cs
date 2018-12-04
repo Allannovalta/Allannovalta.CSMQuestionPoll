@@ -7,12 +7,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    public class QuestionsController : Controller
+    public class PollQuestionsController : Controller
     {
 
-        [HttpGet, Route("manage/questions/index")]
-        [HttpGet, Route("manage/questions")]
-        public IActionResult Index()
+        [HttpGet, Route("manage/pollQuestions/index")]
+        [HttpGet, Route("manage/pollQuestions")]
+        public IActionResult pollQuestions()
         {
             return View();
         }

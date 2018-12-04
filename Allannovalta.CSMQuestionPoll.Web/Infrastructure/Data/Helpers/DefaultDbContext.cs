@@ -16,6 +16,19 @@ namespace Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Helpers
         #region Models
         public DbSet<User> Users { get; set; }
         #endregion
+
+        #region PollQuestion
+        public DbSet<PollQuestion> PollQuestions { get; set; }
+        #endregion
+
+        #region PollChoice
+        public DbSet<PollChoice> PollChoice { get; set; }
+        #endregion
+
+        #region PollAnswer
+        public DbSet<PollAnswer> PollAnswer { get; set; }
+        #endregion
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
