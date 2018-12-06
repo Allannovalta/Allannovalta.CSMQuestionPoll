@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Helpers;
+using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,7 +28,7 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
         public IActionResult PollQuestions()
         {
             return View();
-        }
+        }   
 
         [HttpGet, Route("home/initialize")]
         public IActionResult Init()
@@ -46,14 +47,12 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
                     PostExpiry = DateTime.UtcNow.AddDays(7),
                 };
                 this._context.PollQuestions.Add(PollQuestion);
+
+                this._context.SaveChanges();
             }
 
-            
-        } 
-
-
-
-
+            return RedirectToAction("pollQuestions");
+        }
 
 
     }
