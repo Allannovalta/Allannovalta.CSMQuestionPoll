@@ -1,8 +1,45 @@
-﻿
+﻿@using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Models;
+@model Allannovalta.CSMQuestionPoll.Web.ViewModels.PollQuestions.PollQuestionViewModel;
 @{
     ViewData["Title"] = "PollQuestions";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>PollQuestions</h2>
+<ul>
+    @{foreach (PollQuestion pollQuestion in Model.PollQuestions)
+        {
+            <li>@pollQuestion.Title    @pollQuestion.Content()  @pollQuestion.Thumbnail @pollQuestion.IsPublished @pollQuestion.PostExpiry</li>
+        }
+    }
+</ul>
 
+<div class="container">
+    <h2>PollQuestions</h2>
+    <p>Here is a paged list of all the Poll Questions</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Thumbnail</th>
+                <th>Is Published</th>
+                <th>Post Expiry</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach(PollQuestion pollQuestion in Model.PollQuestions.Items)
+                {
+                    <tr>
+                        <td>@pollQuestion.Title</td>
+                        <td>@pollQuestion.Content</td>
+                        <td>@pollQuestion.Thumbnail</td>
+                        <td>@pollQuestion.IsPublished</td>
+                        <td>@pollQuestion.PostExpiry</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

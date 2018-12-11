@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Helpers;
 using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Models;
+using Allannovalta.CSMQuestionPoll.Web.ViewModels.PollQuestions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,10 +26,42 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
         [HttpGet, Route("manage/pollQuestions/index")]
         [HttpGet, Route("manage/pollQuestions")]
 
-        public IActionResult PollQuestions()
+        #region Pager
+        public IActionResult PollQuestions(int pageSize = 5, int pageIndex = 1, string keyword = "")
         {
-            return View();
-        }   
+            Page<PollQuestion> result = new Page<PollQuestion>();
+            if (pageSize < 1)
+            {
+                pageSize = 1;
+            }
+            IQueryable<PollQuestion> pollQuestionQuery = (IQueryable<PollQuestion>)this._context.PollQuestions;
+            if (string.IsNullOrEmpty(keyword) == false)
+            {
+                pollQuestionQuery = pollQuestionQuery.Where(u => u.Title.Contains(keyword)
+                                            || u.Title.Contains(keyword)
+                                            || u.Content.Contains(keyword));
+            }
+            long queryCount = pollQuestionQuery.Count();
+            int pageCount = (int)Math.Ceiling((decimal)(queryCount / pageSize));
+            long mod = (queryCount % pageSize);
+            if (mod > 0)
+            {
+                pageCount = pageCount + 1;
+            }
+            int skip = (int)(pageSize * (pageIndex - 1));
+            List<PollQuestion> pollQuestions = pollQuestionQuery.ToList();
+            result.Items = PollQuestion.Skip(skip).Take((int)pageSize).ToList();
+            result.PageCount = pageCount;
+            result.PageSize = pageSize;
+            result.QueryCount = queryCount;
+            result.CurrentPage = pageIndex;
+
+            return View(new PollQuestionViewModel()
+            {
+                PollQuestions = result
+            });
+        }
+        #endregion
 
         [HttpGet, Route("home/initialize")]
         public IActionResult Init()
@@ -46,7 +79,7 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
                     IsPublished = true,
                     PostExpiry = DateTime.UtcNow.AddDays(7),
                 };
-                this._context.PollQuestions.Add(PollQuestion);
+                this._context.PollQuestions.Add(pollQuestion);
 
                 this._context.SaveChanges();
             }
@@ -55,5 +88,9 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
         }
 
 
+        //public IActionResult Index()
+        //{
+
+        //}
     }
 }

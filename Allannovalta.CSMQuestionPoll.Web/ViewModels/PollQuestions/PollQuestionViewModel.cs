@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Allannovalta.CSMQuestionPoll.Web.ViewModels.PollQuestions
 {
-    public class PollQuestion
+    public class PollQuestionViewModel
     {
-        public Page<PollQuestion> PollQuestions { get; set; }
+        public Page<PollQuestionViewModel> PollQuestions { get; set; }
     }
 }
