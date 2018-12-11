@@ -50,7 +50,7 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
             }
             int skip = (int)(pageSize * (pageIndex - 1));
             List<PollQuestion> pollQuestions = pollQuestionQuery.ToList();
-            result.Items = PollQuestion.Skip(skip).Take((int)pageSize).ToList();
+            result.Items = pollQuestions.Skip(skip).Take((int)pageSize).ToList();
             result.PageCount = pageCount;
             result.PageSize = pageSize;
             result.QueryCount = queryCount;

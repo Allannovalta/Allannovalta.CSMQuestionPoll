@@ -1,4 +1,5 @@
 ﻿using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Helpers;
+using Allannovalta.CSMQuestionPoll.Web.Infrastructure.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +9,6 @@ namespace Allannovalta.CSMQuestionPoll.Web.ViewModels.PollQuestions
 {
     public class PollQuestionViewModel
     {
-        public Page<PollQuestionViewModel> PollQuestions { get; set; }
+        public Page<PollQuestion> PollQuestions { get; set; }
     }
 }
