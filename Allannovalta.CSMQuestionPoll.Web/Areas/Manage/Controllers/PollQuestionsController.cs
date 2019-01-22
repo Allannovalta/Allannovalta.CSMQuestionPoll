@@ -87,10 +87,28 @@ namespace Allannovalta.CSMQuestionPoll.Web.Areas.Manage.Controllers
             return RedirectToAction("pollQuestions");
         }
 
+        [HttpGet, Route("manage/pollQuestions")]
+        public IActionResult Create(CreatePollQuestionViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return RedirectToAction("pollQuestion");
+            
+            
+            
+               var pollQuestion = new PollQuestion()
+                {
+                    Title = model.Title,
+                    Content = model.Content,
+                    Thumbnail = model.Thumbnail,
+                    IsPublished = model.Ispublished,
+                    PostExpiry = model.PostExpiry,
+                };
+                this._context.PollQuestions.Add(pollQuestion);
+                this._context.SaveChanges();
+            
+            return RedirectToAction("index");
 
-        //public IActionResult Index()
-        //{
+        }
 
-        //}
     }
 }
