@@ -21,15 +21,15 @@
             </tr>
         </thead>
         <tbody>
-            @{
+            {
                 foreach (PollQuestion pollQuestion in Model.PollQuestions.Items)
                 {
                     <tr>
-                        <td>@pollQuestion.Title</td>
-                        <td>@pollQuestion.Content</td>
-                        <td>@pollQuestion.Thumbnail</td>
-                        <td>@pollQuestion.IsPublished</td>
-                        <td>@pollQuestion.PostExpiry</td>
+                        <td>pollQuestion.Title</td>
+                        <td>pollQuestion.Content</td>
+                        <td>pollQuestion.Thumbnail</td>
+                        <td>pollQuestion.IsPublished</td>
+                        <td>pollQuestion.PostExpiry</td>
                         <td>
                             <a href="#" onclick="confirmDeletePollQuestion()" title="Delete Poll Question"><button type="button" class="btn"><i class="fas fa-times"></i></button></a>
                         </td>
@@ -38,11 +38,11 @@
 
 
             }
-        @*</tbody>
+        </tbody>
 
         <td colspan="4">
 
-        </td>*@
+        </td>
 
     </table>
 </div>

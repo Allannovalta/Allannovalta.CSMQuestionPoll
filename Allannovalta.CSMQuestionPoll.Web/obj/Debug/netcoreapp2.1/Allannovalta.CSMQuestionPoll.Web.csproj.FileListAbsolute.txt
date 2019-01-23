@@ -29,3 +29,4 @@ C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannova
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Allannovalta.CSMQuestionPoll.Web.csprojAssemblyReference.cache
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\Users\Index.g.cshtml.cs
 C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\PollQuestions\PollQuestions.g.cshtml.cs
+C:\Users\ALLAN_Novalta\Documents\Projects\Allannovalta.CSMQuestionPoll\Allannovalta.CSMQuestionPoll.Web\obj\Debug\netcoreapp2.1\Razor\Areas\Manage\Views\Users\Create.g.cshtml.cs
